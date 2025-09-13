@@ -148,7 +148,7 @@ const MobileApp: React.FC = () => {
     <div className="mb-8">
       <Title level={4} className="mb-5 text-foreground font-bold">
         <Sparkles className="inline mr-2 text-purple-500" size={20} />
-        快捷服务
+        快捷服
       </Title>
       <Row gutter={[16, 16]}>
         {mockData.quickActions.map((action, index) => (
